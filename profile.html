@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+.card {
+    color: #000; 
+}
+
+body.dark .card {
+    color: #fff; 
+}
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="index.html">MyPortfolio</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="aboutme.html">About Me</a></li>
+<li><a class="nav-link active" href="profile.html">Profile</a></li>
+<li><a class="nav-link" href="contacts.html">Contacts</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="section">
+<div class="container">
+
+<div class="row align-items-center mb-5">
+
+<div class="col-md-4 text-center">
+<img src="pic1.png" class="img-fluid rounded-circle mb-3" alt="Profile Image" style="max-width:200px;">
+</div>
+
+<div class="col-md-6 hero-text">
+<h2><span>Ismael Jairus M. Usita</span></h2>
+<p>
+I am a hardworking and honest student who values kindness and respect. 
+I try to do everything with faith and always ask for God’s guidance in my decisions. 
+I believe that staying positive and trusting God will help me succeed.
+</p>
+</div>
+
+</div>
+
+<h3 class="col-md-6 hero-text"><span>My Skills</span></h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card h-100 p-3 text-center shadow-sm">
+<h5>HTML</h5>
+<p>I use HTML to create the basic structure of web pages, like headings, paragraphs and images.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 p-3 text-center shadow-sm">
+<h5>CSS</h5>
+<p>I use CSS to design and style websites, making them look clean, organized and visually appealing.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 p-3 text-center shadow-sm">
+<h5>Communication</h5>
+<p>I communicate clearly with others, share ideas and work well in group activities or projects.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 p-3 text-center shadow-sm">
+<h5>Bootstrap</h5>
+<p>I use Bootstrap to build responsive websites quickly and make them look good on different devices.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 p-3 text-center shadow-sm">
+<h5>Time Management</h5>
+<p>I manage my time properly to complete tasks, projects and school work on time.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h3 class="col-md-6 hero-text"><span>Contact Me</span></h3>
+
+<form>
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Your Name" required>
+</div>
+
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Your Email" required>
+</div>
+
+<div class="mb-3">
+<textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+</div>
+
+<button class="btn btn-red w-100">Send Message</button>
+</form>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
